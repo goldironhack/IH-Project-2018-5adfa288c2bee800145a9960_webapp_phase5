@@ -1,9 +1,26 @@
-body {
-    color: #444;
-    font-family: Arial, sans-serif;
+h1{
+  font-family: 'Roboto Mono', monospace !important;
+  background-color: #ae81e7 !important;
+  color: #ac694c !important;
+  height: 80px !important;
+  text-align:center !important;
+}
+body{
+  background-color: #e3d9ae !important;
 }
 
-.container {
-    width: 100%;
-    max-width: 960px;
+th, td{
+  font-family: 'Roboto Mono', monospace !important;
+  border: #cc3c8a 2px solid !important;
+  text-align: center !important;
+  border-collapse: separate;
+  width: 20px;
+  height: 30px;
+  color: #3a7f86;
+  background-color: #e8b4b9;
 }
+
+#map {
+        height: 400px;
+        width: 100%;
+       }
